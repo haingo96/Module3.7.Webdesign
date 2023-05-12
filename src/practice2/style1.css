@@ -1,0 +1,44 @@
+div {
+    color: white;
+}
+
+ul {
+    width: 100%;
+    background-color: black;
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+li {
+    padding: 0.5rem 1rem 0.5rem 1rem;
+    width: auto;
+}
+
+li:hover {
+    background-color: orangered;
+}
+
+.element {
+    position: relative;
+    display: inline-block;
+}
+
+.element>ul {
+    display: none;
+}
+
+.element:hover>ul {
+    display: block;
+}
+
+.element-list {
+    position: absolute;
+    top: 2.1rem;
+    left: 0;
+    width: auto;
+}
+
+.element-list li {
+    width: auto;
+}

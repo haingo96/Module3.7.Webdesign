@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 10vh;
+    width: 93vw;
+    position: fixed;
+    background-color: orangered;
+    border: black solid 1px;
+    margin-bottom: 0;
+    margin-left: 2vw;
+    z-index: 1;
+}
+
+.left {
+    height: 89vh;
+    width: 30vw;
+    background-color: orange;
+    border: black solid 1px;
+    float: left;
+    position: fixed;
+    margin-left: 2vw;
+    top: 10vh;
+}
+
+div {
+    float: left;
+    width: 40vw;
+    background-color: aqua;
+    position: absolute;
+    top: 10vh;
+    left: 33vw;
+    border: black solid 1px;
+}
+
+.right {
+    height: 89vh;
+    width: 21vw;
+    background-color: orange;
+    border: black solid 1px;
+    float: left;
+    position: fixed;
+    top: 10vh;
+    left: 74vw;
+}
+
+
+
+
+
+
+

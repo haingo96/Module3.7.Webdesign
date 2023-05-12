@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+}
+
+header {
+    height: 15vh;
+}
+
+nav {
+    height: 10vh;
+}
+
+div {
+    float: left;
+}
+
+section {
+    height: 25vh;
+    width: 70vw;
+}
+
+article {
+    height: 25vh;
+    width: 70vw;
+}
+
+aside {
+    height: 50vh;
+    width: 26vw;
+    float: left;
+}
+
+footer {
+    height: 15vh;
+    clear: both;
+}
